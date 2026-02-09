@@ -1,0 +1,74 @@
+/* DARK MODE */
+.dark-mode {
+    background-color: #333;
+    color: #eee;
+}
+
+.dark-mode .nav {
+    color: #eee;
+}
+
+.dark-mode .welcome {
+    color: #eee;
+}
+
+.dark-mode .movements {
+    background-color: #444;
+    color: #eee;
+}
+
+.dark-mode .movements__row {
+    border-bottom: 1px solid #555;
+    color: #eee;
+}
+
+.dark-mode .movements__date {
+    color: #bbb;
+}
+
+.dark-mode .movements__type {
+    color: #fff;
+}
+
+.dark-mode .balance__label,
+.dark-mode .balance__date,
+.dark-mode .balance__value {
+    color: #eee;
+}
+
+.dark-mode .summary__label {
+    color: #eee;
+}
+
+/* Adjust input text color in dark mode so it's visible */
+.dark-mode .login__input,
+.dark-mode .form__input {
+    color: #333;
+    /* kept dark for visibility on light input bg */
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.dark-mode .form__label {
+    color: #eee;
+}
+
+.dark-mode .operation {
+    background-color: #555;
+    /* Slightly darker background for operations if needed, but they have gradients */
+    color: #eee;
+    /* Text within operation containers */
+}
+
+/* Specific text colors inside operations might need to be verified against the gradient */
+.dark-mode h2 {
+    color: #eee;
+}
+
+.btn--dark-mode {
+    border: none;
+    background: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 0 1rem;
+}
